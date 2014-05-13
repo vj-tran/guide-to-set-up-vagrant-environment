@@ -1,52 +1,95 @@
-‰º‹L‚ÌŠJ”­ŠÂ‹«‚ğì‚éƒKƒCƒh
-EOS Ubuntu precise 64
-EPHP 5.5.3
-EMySQL 5.5
-Enginx 1.1.19
+ä¸‹è¨˜ã®é–‹ç™ºç’°å¢ƒã‚’ä½œã‚‹ã‚¬ã‚¤ãƒ‰
+
+ãƒ»OS Ubuntu precise 64
+
+ãƒ»PHP 5.5.3
+
+ãƒ»MySQL 5.5
+
+ãƒ»nginx 1.1.19
 
 
-ŠÂ‹«\’zè‡
-1)VagrantƒTƒCƒg‚æ‚èAÅV”Å‚ÌVagrant‚ğƒ_ƒEƒ“ƒ[ƒh‚µAƒCƒ“ƒXƒg[ƒ‹‚ğ‚·‚é
+ç’°å¢ƒæ§‹ç¯‰æ‰‹é †
+
+1)Vagrantã‚µã‚¤ãƒˆã‚ˆã‚Šã€æœ€æ–°ç‰ˆã®Vagrantã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã€ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã‚’ã™ã‚‹
+
 http://downloads.vagrantup.com/
-2)“¯—l‚ÉVirtualbox‚ğƒCƒ“ƒXƒg[ƒ‹‚·‚é
+
+2)åŒæ§˜ã«Virtualboxã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹
+
 https://www.virtualbox.org/wiki/Downloads
-3)–{"Miso Development Environment"‚Ìƒ\[ƒXˆê®‚ğgit‚Å©•ª‚ÌPC‚Éƒ_ƒEƒ“ƒ[ƒh‚·‚é
-4)‰º‹L‚ÌuƒtƒHƒ‹ƒ_\¬v‚É]‚¢AŠÂ‹«ƒtƒHƒ‹ƒ_‚ğ\¬‚·‚é
-5)ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“‚©‚çVagrantfile‚Ì‚ ‚éƒtƒHƒ‹ƒ_‚ÉˆÚ“®‚µA‰º‹L‚ÌƒRƒ}ƒ“ƒh‚ğÀs‚·‚é
+
+3)æœ¬"Miso Development Environment"ã®ã‚½ãƒ¼ã‚¹ä¸€å¼ã‚’gitã§è‡ªåˆ†ã®PCã«ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹
+
+4)ä¸‹è¨˜ã®ã€Œãƒ•ã‚©ãƒ«ãƒ€æ§‹æˆã€ã«å¾“ã„ã€ç’°å¢ƒãƒ•ã‚©ãƒ«ãƒ€ã‚’æ§‹æˆã™ã‚‹
+
+5)ã‚³ãƒãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ã‹ã‚‰Vagrantfileã®ã‚ã‚‹ãƒ•ã‚©ãƒ«ãƒ€ã«ç§»å‹•ã—ã€ä¸‹è¨˜ã®ã‚³ãƒãƒ³ãƒ‰ã‚’å®Ÿè¡Œã™ã‚‹
+
 Vagrant up
-6)ƒuƒ‰ƒEƒU‚æ‚èA‰º‹L‚ÌƒŠƒ“ƒN‚Å³í‚ÉŠÂ‹«‚ª‚Å‚«‚½‚©‚Ç‚¤‚©‚ğƒ`ƒFƒbƒN‚·‚é
+
+6)ãƒ–ãƒ©ã‚¦ã‚¶ã‚ˆã‚Šã€ä¸‹è¨˜ã®ãƒªãƒ³ã‚¯ã§æ­£å¸¸ã«ç’°å¢ƒãŒã§ããŸã‹ã©ã†ã‹ã‚’ãƒã‚§ãƒƒã‚¯ã™ã‚‹
+
 http://127.0.0.1:8080/
-¦è‡5)‚ğÀs‚·‚é‘O‚É‘¼‚ÌƒT[ƒrƒX‚ªƒ|[ƒg8080‚ğg‚Á‚Ä‚¢‚é‚©ƒ`ƒFƒbƒN‚·‚é•K—v‚ª‚ ‚é
 
-ŠÂ‹«“à—e
+â€»æ‰‹é †5)ã‚’å®Ÿè¡Œã™ã‚‹å‰ã«ä»–ã®ã‚µãƒ¼ãƒ“ã‚¹ãŒãƒãƒ¼ãƒˆ8080ã‚’ä½¿ã£ã¦ã„ã‚‹ã‹ãƒã‚§ãƒƒã‚¯ã™ã‚‹å¿…è¦ãŒã‚ã‚‹
+
+ç’°å¢ƒå†…å®¹
+
 OS Ubuntu precise 64
+
 PHP 5.5.3
+
 MySQL 5.5
+
 nginx 1.1.19
+
 Document Root
+
 /vagrant_data/www
-ƒtƒHƒ‹ƒ_\¬
+
+ãƒ•ã‚©ãƒ«ãƒ€æ§‹æˆ
 .
-„¥„Ÿ„Ÿ Environment
-„  „¥„Ÿ„Ÿ Vagrantfile
-„  „¤„Ÿ„Ÿ cookbooks
-„  „¤„Ÿ„Ÿ omusubi
-„  „¥„Ÿ„Ÿ README.md
-„  „¥„Ÿ„Ÿ attributes
-„  „  „¤„Ÿ„Ÿ default.rb
-„  „¥„Ÿ„Ÿ recipes
-„  „  „¥„Ÿ„Ÿ default.rb
-„  „  „¤„Ÿ„Ÿ gentoo.rb
-„  „¤„Ÿ„Ÿ templates
-„  „¤„Ÿ„Ÿ default
-„  „¥„Ÿ„Ÿ php-fpm.conf.erb
-„  „¤„Ÿ„Ÿ www2.conf.erb
-„¤„Ÿ„Ÿ Source
-„¤„Ÿ„Ÿ www
-„¤„Ÿ„Ÿ index.php
 
-SourceƒtƒHƒ‹ƒ_‚ÍƒQƒXƒgOS‚Ì/vagrant_dataƒtƒHƒ‹ƒ_‚Æ˜A“®
-SourceƒtƒHƒ‹ƒ_‚ÍGit‚Å‚ÍŠÇ—‚µ‚Ä‚¢‚È‚¢‚Ì‚Å©•ª‚Åì¬
+â”œâ”€â”€ Environment
 
-ƒAƒNƒZƒXƒŠƒ“ƒN
+â”‚ â”œâ”€â”€ Vagrantfile
+
+â”‚ â””â”€â”€ cookbooks
+
+â”‚ â””â”€â”€ omusubi
+
+â”‚ â”œâ”€â”€ README.md
+
+â”‚ â”œâ”€â”€ attributes
+
+â”‚ â”‚ â””â”€â”€ default.rb
+
+â”‚ â”œâ”€â”€ recipes
+
+â”‚ â”‚ â”œâ”€â”€ default.rb
+
+â”‚ â”‚ â””â”€â”€ gentoo.rb
+
+â”‚ â””â”€â”€ templates
+
+â”‚ â””â”€â”€ default
+
+â”‚ â”œâ”€â”€ php-fpm.conf.erb
+
+â”‚ â””â”€â”€ www2.conf.erb
+
+â””â”€â”€ Source
+
+â””â”€â”€ www
+
+â””â”€â”€ index.php
+
+
+Sourceãƒ•ã‚©ãƒ«ãƒ€ã¯ã‚²ã‚¹ãƒˆOSã®/vagrant_dataãƒ•ã‚©ãƒ«ãƒ€ã¨é€£å‹•
+
+Sourceãƒ•ã‚©ãƒ«ãƒ€ã¯Gitã§ã¯ç®¡ç†ã—ã¦ã„ãªã„ã®ã§è‡ªåˆ†ã§ä½œæˆ
+
+
+ã‚¢ã‚¯ã‚»ã‚¹ãƒªãƒ³ã‚¯
+
 http://127.0.0.1:8080/
